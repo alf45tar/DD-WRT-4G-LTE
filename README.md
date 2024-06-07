@@ -2,11 +2,13 @@
 
 To convert an old WiFi router and phone into a high-performance LTE router in 2024, here's a step-by-step guide leveraging the stability and extended functionality provided by DD-WRT firmware.
 
-## Backgroud
+# Benefits
 
-We know consumer WiFi routers are piece of crap because of the poor firmware that is never updated after the first factory release. They sometimes requires reboot more or less often. It is well know that replacing the original firmware with DD-WRT (if supported) the music change. Your router can be transformed in a rock solid router that you will never reboot. 
-
-Ready to convert a 10 year old router (TP-Link Archer C9) and a 7 year old phone (iPhone 8) into the best ever consumer LTE router in 2024.
+- **Rock-Solid Stability:** DD-WRT firmware is known for its stability and is frequently updated by the community.
+- **Extended Features:** Advanced networking features such as VPN support, QoS, VLAN, and more.
+- **Cost-Effective:** Reuses existing hardware, saving money on new equipment.
+ 
+By converting your old router and smartphone into an LTE router, you achieve a robust and cost-effective solution that can outperform many consumer-grade LTE routers available in the market today. The combination of DD-WRT’s powerful features and the LTE capabilities of your smartphone makes for a versatile and reliable network setup.
 
 ## Materials Needed
 
