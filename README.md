@@ -2,7 +2,7 @@
 
 To convert an old WiFi router and phone into a high-performance LTE router in 2024, here's a step-by-step guide leveraging the stability and extended functionality provided by DD-WRT firmware.
 
-# Benefits
+## Benefits
 
 - **Rock-Solid Stability:** DD-WRT firmware is known for its stability and is frequently updated by the community.
 - **Extended Features:** Advanced networking features such as VPN support, QoS, VLAN, and more.
