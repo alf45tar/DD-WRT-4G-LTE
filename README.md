@@ -18,28 +18,42 @@ By converting your old router and smartphone into an LTE router, you achieve a r
 
 ## Step 1: Install DD-WRT on the Router
 
-- **Identify Router Compatibility:**
+1. **Identify Router Compatibility:**
+   
+   Check if your old router is compatible with DD-WRT firmware by visiting the DD-WRT database here.
 
-  Check if your old router is compatible with DD-WRT firmware by visiting the DD-WRT database here.
+3. **Download DD-WRT Firmware:**
+   
+   Download the appropriate DD-WRT firmware for your router model from the database.
 
-- **Download DD-WRT Firmware:**
+5. **Flash the Router:**
 
-  Download the appropriate DD-WRT firmware for your router model from the database.
-
-- **Flash the Router:**
-
-  Follow the router-specific instructions to flash DD-WRT onto your router. This usually involves:
-    Logging into the router’s web interface.
-    Uploading the DD-WRT firmware.
-    Waiting for the installation to complete.
+   Follow the router-specific instructions to flash DD-WRT onto your router. This usually involves:
+    - Logging into the router’s web interface.
+    - Uploading the DD-WRT firmware.
+    - Waiting for the installation to complete.
 
 ## Step 2: Set Up the Smartphone as a Hotspot
 
-  - **Enable Hotspot:**
+  1. **Enable Hotspot:**
 
-    On your old smartphone, go to Settings > Network & Internet > Hotspot & Tethering.
-    Enable Mobile Hotspot and configure the SSID (network name) and password.
+     On your old smartphone, go to Settings > Network & Internet > Hotspot & Tethering.
+     Enable Mobile Hotspot and configure the SSID (network name) and password.
 
-  - **Connect the Smartphone to the Router:**
+  2. **Connect the Smartphone to the Router:**
 
-    Use a USB cable to connect the smartphone to the router. Some routers with DD-WRT support USB tethering directly. If not, you can still use the phone as a wireless hotspot.
+     Use a USB cable to connect the smartphone to the router. Some routers with DD-WRT support USB tethering directly. If not, you can still use the phone as a wireless hotspot.
+
+## Step 3: Configure the Router
+1. Access Router Web Interface:
+   - Connect to the router via a web browser using the default IP address (usually 192.168.1.1).
+   
+3. Navigate to Setup > Basic Setup:
+   - Set the WAN Connection Type to “Automatic Configuration - DHCP” if you’re using the phone as a hotspot wirelessly.
+   
+3. Configure USB Tethering:
+   - If using USB tethering, navigate to Services > USB and enable Core USB Support and USB Over Ethernet (RNDIS).
+   - Set the WAN Connection Type to “Mobile Broadband” and input the necessary information such as APN if required.
+   
+5. Configure Wireless Settings:
+   - Go to Wireless > Basic Settings and configure your WiFi SSID and security settings under Wireless Security.
