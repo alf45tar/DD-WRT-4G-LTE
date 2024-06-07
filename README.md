@@ -10,10 +10,18 @@ To convert an old WiFi router and phone into a high-performance LTE router in 20
  
 By converting your old router and smartphone into an LTE router, you achieve a robust and cost-effective solution that can outperform many consumer-grade LTE routers available in the market today. The combination of DD-WRT’s powerful features and the LTE capabilities of your smartphone makes for a versatile and reliable network setup.
 
+It's true that technological advancements in smartphones and LTE modems have progressed at different rates. In 2017, smartphones such as the iPhone 8 were equipped with LTE Category 12 modems, which supported download speeds up to 600 Mbps. In contrast, many consumer LTE routers, particularly those targeting more budget-conscious markets, have continued to use lower category modems like Category 4, which support download speeds up to 150 Mbps.
+
 ## Materials Needed
 
 - **Old Router** (preferably compatible with DD-WRT)
+  
+  I am using a TP-Link Archer C9 lauched 2014 with simultaneous 2.4GHz 600 Mbps and 5GHz 1300 Mbps connections for 1.9 Gbps of total available bandwidth.
+  
 - **Old Smartphone** with LTE capability
+  
+  I am using an iPhone 8 lauched in 2017 equipped with a Category 12 modem up to 600 Mbps in download.
+  
 - **USB Charging Cable**
 
 ## Step 1: Install DD-WRT on the Router
