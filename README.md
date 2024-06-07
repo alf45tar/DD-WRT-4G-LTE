@@ -16,7 +16,7 @@ It's true that technological advancements in smartphones and LTE modems have pro
 
 - **Old Router** (preferably compatible with DD-WRT)
   
-  I am using a TP-Link Archer C9 lauched 2014 with simultaneous 2.4GHz 600 Mbps and 5GHz 1300 Mbps connections for 1.9 Gbps of total available bandwidth.
+  I am using a TP-Link Archer C9 lauched in 2014 with simultaneous 2.4GHz 600 Mbps and 5GHz 1300 Mbps connections for 1.9 Gbps of total available bandwidth.
   
 - **Old Smartphone** with LTE capability
   
