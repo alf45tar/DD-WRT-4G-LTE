@@ -92,7 +92,7 @@ It's true that technological advancements in smartphones and LTE modems have pro
 
 3. Navigate `Setup > Advanced Routing`
 
-  - Set the Operating Mode to *Gateway*. In Gateway mode the router is hosting your network's connection to the Internet and performs NAT, while in other modes it does not.
+   - Set the Operating Mode to *Gateway*. In Gateway mode the router is hosting your network's connection to the Internet and performs NAT, while in other modes it does not.
   
      ![](images/Setup%20-%20Advanced%20Routing.jpg)
      
