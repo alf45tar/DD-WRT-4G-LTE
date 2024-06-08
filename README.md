@@ -4,17 +4,25 @@ To convert an old WiFi router and phone into a high-performance LTE router in 20
 
 ## Benefits
 
-- **Rock-Solid Stability:** DD-WRT firmware is known for its stability and is frequently updated by the community.
-- **Extended Features:** Advanced networking features such as VPN support, QoS, VLAN, and more.
-- **Cost-Effective:** Reuses existing hardware, saving money on new equipment.
+- **Rock-Solid Stability**
+  
+  DD-WRT firmware is known for its stability and is frequently updated by the community.
+  
+- **Extended Features**
+
+  Advanced networking features such as VPN support, QoS, VLAN, and more.
+  
+- **Cost-Effective**
+  
+  Reuses existing hardware, saving money on new equipment.
  
-By converting your old router and smartphone into an LTE router, you achieve a robust and cost-effective solution that can outperform many consumer-grade LTE routers available in the market today. The combination of DD-WRT’s powerful features and the LTE capabilities of your smartphone makes for a versatile and reliable network setup.
+By converting your old router and smartphone into an LTE router, you achieve a robust and cost-effective solution that can **outperform many consumer-grade LTE routers** available in the market today. The combination of DD-WRT’s powerful features and the LTE capabilities of your smartphone makes for a versatile and reliable network setup.
 
 It's true that technological advancements in smartphones and LTE modems have progressed at different rates. In 2017, smartphones such as the iPhone 8 were equipped with LTE Category 12 modems, which supported download speeds up to 600 Mbps. In contrast, many consumer LTE routers, particularly those targeting more budget-conscious markets, have continued to use lower category modems like Category 4, which support download speeds up to 150 Mbps.
 
 ## Materials Needed
 
-- **Old Router** (preferably compatible with DD-WRT)
+- **Old Router** (compatible with DD-WRT)
   
   I am using a TP-Link Archer C9 lauched in 2014 with simultaneous 2.4GHz 600 Mbps and 5GHz 1300 Mbps connections for 1.9 Gbps of total available bandwidth.
   
@@ -26,15 +34,15 @@ It's true that technological advancements in smartphones and LTE modems have pro
 
 ## Step 1: Install DD-WRT on the Router
 
-1. **Identify Router Compatibility:**
+1. **Identify Router Compatibility**
    
-   Check if your old router is compatible with DD-WRT firmware by visiting the DD-WRT database here.
+   Check if your old router is compatible with DD-WRT firmware by visiting the DD-WRT database [here](https://dd-wrt.com/support/router-database/).
 
-3. **Download DD-WRT Firmware:**
+3. **Download DD-WRT Firmware**
    
    Download the appropriate DD-WRT firmware for your router model from the database.
 
-5. **Flash the Router:**
+5. **Flash the Router**
 
    Follow the router-specific instructions to flash DD-WRT onto your router. This usually involves:
     - Logging into the router’s web interface.
@@ -42,17 +50,36 @@ It's true that technological advancements in smartphones and LTE modems have pro
     - Waiting for the installation to complete.
 
 ## Step 2: Set Up the Smartphone as a Hotspot
+ 
+  1. **Enable Hotspot**
 
-  1. **Enable Hotspot:**
+     - Open Settings
+       
+       - Tap the *Settings* app on your iPhone
 
-     On your old smartphone, go to Settings > Network & Internet > Hotspot & Tethering.
-     Enable Mobile Hotspot and configure the SSID (network name) and password.
+     - Select Cellular
+     
+       - Tap *Cellular* or *Mobile Data*, depending on your region
 
-  2. **Connect the Smartphone to the Router:**
+     - Enable Personal Hotspot
 
-     Use a USB cable to connect the smartphone to the router. Some routers with DD-WRT support USB tethering directly. If not, you can still use the phone as a wireless hotspot.
+        - Tap *Personal Hotspot*
+        - Toggle the switch to turn on *Allow Others to Join*
+     
+     - Configure Wi-Fi Password
+
+       - Tap *Wi-Fi Password*
+       - Enter a password that others will use to connect to your hotspot
+       - Tap *Done* to save the password
+
+  2. **Connect the Smartphone to the Router**
+
+     Connecting your smartphone to the router via Wi-Fi tethering is more flexible than using USB tethering, as it allows you to move around freely and place your smartphone in the optimal location for the best 4G signal reception. This can improve the connection quality and speed for all devices connected to the hotspot.
+    
+     Using your smartphone as a hotspot can significantly drain its battery. Keeping it connected to a power source is crucial to ensure continuous operation. If your smartphone is close to the router, you can connect it directly to the router's USB port for charging. This can be an efficient way to keep your phone charged without using an additional power outlet. 
 
 ## Step 3: Configure the Router
+
 1. Access Router Web Interface:
    - Connect to the router via a web browser using the default IP address (usually 192.168.1.1).
    
