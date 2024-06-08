@@ -102,11 +102,15 @@ It's true that technological advancements in smartphones and LTE modems have pro
    
 3. Configure Wireless Settings
    
-   - Go to `Wireless > Basic Settings` and configure Radio Mode to *Station*, Network Mode to "N Only", the WiFi SSID of your smartphone hotspot and the Network Configuration as *Unbridged*
+   - Go to `Wireless > Basic Settings` and configure
+      - `Radio Mode` to *Station*
+      - `Network Mode` to *N Only*
+      - `Service Set Identifier (SSID)` with your smartphone hotspot name
+      - `Network Configuration` as *Unbridged*
        
      ![](images/Wireless%20-%20Basic%20Settings.jpg)
 
-     Set WiFi password under `Wireless Security`
+     Set WiFi password under `Wireless Security` in `WPA Shared Key`
      
      ![](images/Wireless%20-%20Wireless%20Security.jpg)
 
