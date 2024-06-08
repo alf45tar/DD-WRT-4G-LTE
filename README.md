@@ -65,12 +65,15 @@ It's true that technological advancements in smartphones and LTE modems have pro
 
         - Tap *Personal Hotspot*
         - Toggle the switch to turn on *Allow Others to Join*
+        - Toggle the switch to turn on *Maximize Compatibility* to use 2.4 GHz connection.
      
      - Configure Wi-Fi Password
 
        - Tap *Wi-Fi Password*
        - Enter a password that others will use to connect to your hotspot
        - Tap *Done* to save the password
+      
+     The hotspot network name will be the phone name. In my case `iPhone 8`.
 
   2. **Connect the Smartphone to the Router**
 
