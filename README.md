@@ -83,12 +83,16 @@ It's true that technological advancements in smartphones and LTE modems have pro
 1. Access Router Web Interface:
    - Connect to the router via a web browser using the default IP address (usually 192.168.1.1).
    
-3. Navigate to Setup > Basic Setup:
-   - Set the WAN Connection Type to “Automatic Configuration - DHCP” if you’re using the phone as a hotspot wirelessly.
+3. Navigate to `Setup > Basic Setup`
+   - Set the WAN Connection Type to *Automatic Configuration - DHCP* if you’re using the phone as a hotspot wirelessly.
+  
+     ![](images/Setup%20-%20Basic%20Setup.jpg)
    
 3. Configure USB Tethering:
-   - If using USB tethering, navigate to Services > USB and enable Core USB Support and USB Over Ethernet (RNDIS).
+   - If using USB tethering, navigate to `Services > USB` and enable *Core USB Support*.
    - Set the WAN Connection Type to “Mobile Broadband” and input the necessary information such as APN if required.
    
-5. Configure Wireless Settings:
-   - Go to Wireless > Basic Settings and configure your WiFi SSID and security settings under Wireless Security.
+5. Configure Wireless Settings
+   - Go to `Wireless > Basic Settings` and configure your WiFi SSID and security settings under Wireless Security
+  
+     ![](images/Wireless%20-%20Basic%20Settings.jpg)
