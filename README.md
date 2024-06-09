@@ -118,6 +118,9 @@ Connecting your smartphone to the router via Wi-Fi tethering is more flexible th
    
      ![](images/Services%20-%20USB.jpg)
 
-## Step 4: Connect the Smartphone to the Router
+## Step 4: Connect the Router to the Smartphone
+
+If no devices are connected to the hotspot for a period of time, the iPhone may automatically turn off the hotspot to save battery.
+Simply turning the hotspot off and back on to reactivate the hotspot.
 
 
