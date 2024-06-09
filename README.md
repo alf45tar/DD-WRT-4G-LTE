@@ -50,6 +50,8 @@ It's true that technological advancements in smartphones and LTE modems have pro
     - Waiting for the installation to complete.
 
 ## Step 2: Set Up the Smartphone as a Hotspot
+
+Connecting your smartphone to the router via Wi-Fi tethering is more flexible than using USB tethering, as it allows you to move around freely and place your smartphone in the optimal location for the best 4G signal reception. This can improve the connection quality and speed for all devices connected to the hotspot.
  
   1. **Enable Hotspot**
 
@@ -74,12 +76,6 @@ It's true that technological advancements in smartphones and LTE modems have pro
        - Tap *Done* to save the password
       
      The hotspot network name will be the phone name. In my case `iPhone 8`.
-
-  2. **Connect the Smartphone to the Router**
-
-     Connecting your smartphone to the router via Wi-Fi tethering is more flexible than using USB tethering, as it allows you to move around freely and place your smartphone in the optimal location for the best 4G signal reception. This can improve the connection quality and speed for all devices connected to the hotspot.
-    
-     Using your smartphone as a hotspot can significantly drain its battery. Keeping it connected to a power source is crucial to ensure continuous operation. If your smartphone is close to the router, you can connect it directly to the router's USB port for charging. This can be an efficient way to keep your phone charged without using an additional power outlet. 
 
 ## Step 3: Configure the Router
 
@@ -114,10 +110,14 @@ It's true that technological advancements in smartphones and LTE modems have pro
      
      ![](images/Wireless%20-%20Wireless%20Security.jpg)
 
-5.
+4. Enable USB
 
-6. Configure USB Tethering:
-   - If using USB tethering, navigate to `Services > USB` and enable *Core USB Support*.
-   - Set the WAN Connection Type to “Mobile Broadband” and input the necessary information such as APN if required.
-
+   Using your smartphone as a hotspot can significantly drain its battery. Keeping it connected to a power source is crucial to ensure continuous operation. If your smartphone is close to the router, you can connect it directly to the router's USB port for charging. This can be an efficient way to keep your phone charged without using an additional power outlet.
+   
+   - To charge your smarphone via router USB, navigate to `Services > USB` and enable *Core USB Support*
+   
      ![](images/Services%20-%20USB.jpg)
+
+## Step 4: Connect the Smartphone to the Router
+
+
